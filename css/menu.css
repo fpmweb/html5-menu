@@ -18,7 +18,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, html5-menu, nav, section {
     display: block;
@@ -41,9 +41,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-/* Default Styles
---------------------------------------------------------------------*/
 
 body {
     background-color: #444444;
@@ -74,7 +71,7 @@ nav {
 }
 
 .html5-menu li a {
-    color: #444;
+    color: #006481;
     display: block;
     font-size: 14px;
     line-height: 20px;
@@ -92,8 +89,6 @@ nav {
     color: #222;
 }
 
-/* Dropdown styles */
-
 .html5-menu ul {
     position: absolute;
     left: -9999px;
@@ -110,7 +105,6 @@ nav {
     white-space: nowrap;
 }
 
-/* Displays the dropdown on hover and moves back into position */
 .html5-menu li:hover ul {
     background: rgba(255,255,255,0.7);
     border-radius: 0 0 6px 6px;
@@ -119,13 +113,12 @@ nav {
     opacity: 1;
 }
 
-/* Persistant Hover State */
 .html5-menu li:hover a {
     background: -webkit-gradient(linear, center top, center bottom, from(#ccc), to(#ededed));
     background-image: linear-gradient(#ccc, #ededed);
     border-radius: 12px;
     box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
-    color: #222;
+    color: #0083a9;
 }
 
 .html5-menu li:hover ul a {
